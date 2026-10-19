@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- POCO X3 NFC (surya) Device Manifest for Shinkai Heptakaideka -->
+    <!-- POCO X3 NFC (surya) Device Manifest for Lineage-24.0 -->
     <remote name="surya-blobs" fetch="https://github.com/xiaomi-surya-devs" />
 
     <!-- Device core repos -->

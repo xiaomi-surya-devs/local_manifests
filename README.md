@@ -8,7 +8,7 @@ To get started with Android, you'll need to get familiar with [Source Control To
 
 To initialize your local repository using the Google kernel manifest, use a command like this:
 ```
-repo init --depth=1 -u https://github.com/ShinkaiProject/shinkai_manifest.git -b heptakaideka --git-lfs
+repo init -u https://github.com/xiaomi-surya-devs/android.git -b lineage-24.0 --git-lfs --depth=1 --no-repo-verify
 ```
 Then use a command like this to clone the local manifest at the root of your local repository:
 ```
@@ -28,9 +28,9 @@ source build/envsetup.sh
 ```
 Use breakfast to configure the build for your device:
 ```
-breakfast surya
+breakfast surya userdebug
 ```
 Start the compilation:
 ```
-m shinkai
+m bacon
 ```
