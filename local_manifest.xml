@@ -13,5 +13,5 @@
     <!-- Misc Dependencies -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="surya-blobs" revision="lineage-24.0" />
     <project name="vendor_sony_dolby" path="vendor/sony/dolby" remote="surya-blobs" revision="lineage-24.0" />
-    <project name="vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" remote="surya-blobs" revision="lineage-24.0" />
+    <project name="ShinkaiProject/shinkai_vendor_private_keys" path="vendor/private/keys" remote="github" revision="heptakaideka" />
 </manifest>
